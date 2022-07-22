@@ -1,0 +1,21 @@
+{
+  "name": "tinxit/module-disable-name-check",
+  "version": "1.0.0",
+  "description": "Removes the check on firstname and lastname for @$%&/",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-customer": "103.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TinxIT\\DisableNameCheck\\": ""
+    }
+  }
+}

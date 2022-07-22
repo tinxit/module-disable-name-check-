@@ -1,0 +1,4 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <preference for="Magento\Customer\Model\Validator\Name" type="TinxIT\DisableNameCheck\Model\Validator\Name" />
+</config>
